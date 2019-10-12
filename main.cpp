@@ -17,7 +17,7 @@
 
 // Project constants
 
-QString softwareVersion("0.3.1");
+QString softwareVersion("0.3.2");
 QString configureArgName("--configure");
 QString configDir(QString("%1/Wn8JWmP2X9").arg(QDir::tempPath()));
 
@@ -27,7 +27,7 @@ QString baseAPIUrl("http://dso-client/");
 #ifndef QT_DEBUG
 QString baseAPIUrl("https://dso.earedrodent.com/");
 #endif
-QString clientUrl(baseAPIUrl + "client");
+QString clientUrl(baseAPIUrl + "private/dso-quicklauncher");
 
 // =================
 
